@@ -1,0 +1,25 @@
+{
+    "name": "Threema Web Darkmode",
+    "description": "Chrome extension to apply darkmode on threema web!",
+    "version": "1.0",
+    "permissions": ["tabs", "declarativeContent", "webNavigation", "storage", "https://web.threema.ch/"],
+    "background": {
+        "scripts": ["src/background.js"],
+        "persistent": false
+    },
+    "web_accessible_resources": ["src/css/*.css"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.threema.ch/*"
+            ],
+            "css": [
+                "src/css/darkmode.css"
+            ],
+            "js": [
+                "src/js/content.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
