@@ -1,7 +1,7 @@
 const extensionID = chrome.runtime.id
 const tabURL = document.location.href
 
-if(tabURL.startsWith("https://web.threema.ch/#!/messenger")) {
+if(tabURL.startsWith("https://web.threema.ch/")) {
     console.log("Injecting darkmode stylesheet...")
     injectCSS(`chrome-extension://${extensionID}/src/css/darkmode.css`)
 }
