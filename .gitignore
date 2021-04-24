@@ -1,1 +1,4 @@
 /.idea/
+/.tsbuildinfo.json
+/package-lock.json
+/threema-web-darkmode.iml
