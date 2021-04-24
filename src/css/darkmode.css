@@ -1,0 +1,89 @@
+:root {
+    --lighter-bg-2: #444444;
+    --lighter-bg: #575757;
+    --light-bg: #272727;
+    --bg: #121212;
+    --darker-fg: #797979;
+    --dark-fg: #d8d8d8;
+    --fg: #FFF;
+    --primary: #4da84d;
+    --primary-dark: #447c4b;
+    --error: #f34336;
+}
+
+/* LOGIN */
+
+h2 {
+    color: var(--fg)
+}
+
+#aria-label-password-reconnect, span {
+    color: var(--dark-fg)
+}
+
+.md-button.md-threema-theme.md-primary.md-fab, .md-button.md-threema-theme.md-primary.md-raised {
+    background-color: var(--lighter-bg-2);
+}
+
+md-input-container.md-threema-theme .md-input {
+    border-color: var(--dark-fg) !important;
+    color: var(--dark-fg);
+}
+
+#welcome, #welcome input {
+    color: var(--dark-fg);
+}
+
+md-progress-circular.md-threema-theme path {
+    stroke: var(--dark-fg)
+}
+
+/* MESSENGER */
+
+#navigation-topheader {
+    background-color: var(--light-bg);
+}
+
+#navigation-header {
+    background-color: var(--light-bg);
+}
+
+#navigation-conversations {
+    background-color: var(--light-bg);
+}
+
+#main-content, #main { /* Messenger + Login */
+    background-color: var(--light-bg);
+}
+
+.conversation {
+    background-color: var(--bg);
+}
+
+.conversation:hover {
+    background-color: var(--light-bg) !important;
+}
+
+#navigation-conversations .conversation-wrapper .conversation {
+    border-color: var(--light-bg);
+}
+
+#navigation-conversations .conversation-wrapper .conversation:hover {
+    border-color: var(--lighter-bg);;
+}
+
+.material-icons.md-medium-dark, .material-icons.md-dark {
+    color: var(--dark-fg);
+}
+
+.title {
+    color: var(--fg);
+}
+
+#navigation-conversations .conversation-wrapper .conversation .conversation-box .message-box .latest-message {
+    color: var(--dark-fg) !important;
+}
+
+#navigation-conversations .conversation-wrapper {
+    border-color: var(--light-bg);
+}
