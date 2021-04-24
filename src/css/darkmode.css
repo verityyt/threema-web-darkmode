@@ -21,7 +21,7 @@ h2 {
     color: var(--dark-fg)
 }
 
-.md-button.md-threema-theme.md-primary.md-fab, .md-button.md-threema-theme.md-primary.md-raised {
+.md-button.md-threema-theme.md-primary.md-fab, .md-button.md-threema-theme.md-primary.md-raised{
     background-color: var(--lighter-bg-2);
 }
 
@@ -86,4 +86,14 @@ md-progress-circular.md-threema-theme path {
 
 #navigation-conversations .conversation-wrapper {
     border-color: var(--light-bg);
+}
+
+/* Dropdown */
+
+md-menu-content.md-threema-theme {
+    background-color: var(--bg);
+}
+
+md-menu-content.md-threema-theme md-menu-item md-icon {
+    color: var(--lighter-bg-2);
 }
