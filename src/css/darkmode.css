@@ -156,3 +156,14 @@ compose-area>div:first-child>div:nth-of-type(2) {
     background-color: var(--light-bg) !important;
     color: var(--dark-fg) !important;
 }
+
+/* MESSENGER / CHAT / UNREAD MESSAGES */
+
+#conversation-chat .chat .unread-separator .line {
+    border-color: var(--dark-fg) !important;
+}
+
+#conversation-chat .chat .unread-separator .text {
+    text-shadow: 0 0 4px black !important;
+    color: var(--dark-fg) !important;
+}
