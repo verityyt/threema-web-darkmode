@@ -57,15 +57,15 @@ md-progress-circular.md-threema-theme path {
     background-color: var(--light-bg) !important;
 }
 
-.conversation {
+.conversation, #navigation-conversations .conversation-wrapper .conversation, #navigation-contacts .contact {
     background-color: var(--bg) !important;
 }
 
-.conversation:hover {
+.conversation:hover, #navigation-contacts .contact:hover {
     background-color: var(--light-bg) !important;
 }
 
-#navigation-conversations .conversation-wrapper .conversation {
+#navigation-conversations .conversation-wrapper .conversation, #navigation-contacts .contact {
     border-color: var(--light-bg) !important;
 }
 
@@ -77,7 +77,7 @@ md-progress-circular.md-threema-theme path {
     color: var(--dark-fg) !important;
 }
 
-.title {
+.title, #navigation-contacts .contact .name, .identity {
     color: var(--fg) !important;
 }
 
