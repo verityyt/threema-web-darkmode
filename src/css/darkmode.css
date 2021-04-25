@@ -160,7 +160,7 @@ body.md-default-theme, html.md-default-theme, html {
     opacity: 50% !important;
 }
 
-compose-area>div:first-child>div:nth-of-type(2) {
+compose-area > div:first-child > div:nth-of-type(2) {
     border-color: var(--bg) !important;
     background-color: var(--light-bg) !important;
     color: var(--dark-fg) !important;
@@ -175,4 +175,11 @@ compose-area>div:first-child>div:nth-of-type(2) {
 #conversation-chat .chat .unread-separator .text {
     text-shadow: 0 0 4px black !important;
     color: var(--dark-fg) !important;
+}
+
+/* MESSENGER / CHAT / INPUT / EMOJIS */
+
+.twemoji-picker, .twemoji-picker .tab label, .twemoji-picker .tab ~ label, .twemoji-picker .tab .content {
+    background-color: var(--light-bg) !important;
+    border-color: var(--lighter-bg-2) !important;
 }
