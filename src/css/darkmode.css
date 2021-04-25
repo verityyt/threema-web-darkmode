@@ -140,6 +140,15 @@ body.md-default-theme, html.md-default-theme, html {
     background-color: var(--light-bg) !important;
 }
 
+::-webkit-scrollbar {
+    border-color: var(--light-bg) !important;
+    background-color: var(--light-bg) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-bg) !important;
+}
+
 /* MESSENGER / CHAT / INPUT */
 
 #conversation #conversation-footer {
