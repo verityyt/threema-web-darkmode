@@ -1,6 +1,6 @@
 {
     "name": "Threema Web Darkmode",
-    "description": "Chrome extension to apply darkmode on threema web!",
+    "description": "Chrome extension to apply darkmode on threema web! - published and developed by verity",
     "version": "1.0",
     "permissions": ["tabs", "declarativeContent", "webNavigation", "storage", "https://web.threema.ch/"],
     "background": {
