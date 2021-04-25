@@ -1,4 +1,5 @@
 :root {
+    --chat-bg: #4c4c4c;
     --lighter-bg-2: #444444;
     --lighter-bg: #575757;
     --light-bg: #272727;
@@ -14,50 +15,50 @@
 /* LOGIN */
 
 h2 {
-    color: var(--fg)
+    color: var(--fg) !important;
 }
 
 #aria-label-password-reconnect, span {
-    color: var(--dark-fg)
+    color: var(--dark-fg) !important;
 }
 
-.md-button.md-threema-theme.md-primary.md-fab, .md-button.md-threema-theme.md-primary.md-raised{
-    background-color: var(--lighter-bg-2);
+.md-button.md-threema-theme.md-primary.md-fab, .md-button.md-threema-theme.md-primary.md-raised {
+    background-color: var(--lighter-bg-2) !important;
 }
 
 md-input-container.md-threema-theme .md-input {
     border-color: var(--dark-fg) !important;
-    color: var(--dark-fg);
+    color: var(--dark-fg) !important;
 }
 
 #welcome, #welcome input {
-    color: var(--dark-fg);
+    color: var(--dark-fg) !important;
 }
 
 md-progress-circular.md-threema-theme path {
-    stroke: var(--dark-fg)
+    stroke: var(--dark-fg) !important;
 }
 
 /* MESSENGER */
 
 #navigation-topheader {
-    background-color: var(--light-bg);
+    background-color: var(--light-bg) !important;
 }
 
 #navigation-header {
-    background-color: var(--light-bg);
+    background-color: var(--light-bg) !important;
 }
 
 #navigation-conversations {
-    background-color: var(--light-bg);
+    background-color: var(--light-bg) !important;
 }
 
 #main-content, #main { /* Messenger + Login */
-    background-color: var(--light-bg);
+    background-color: var(--light-bg) !important;
 }
 
 .conversation {
-    background-color: var(--bg);
+    background-color: var(--bg) !important;
 }
 
 .conversation:hover {
@@ -65,19 +66,19 @@ md-progress-circular.md-threema-theme path {
 }
 
 #navigation-conversations .conversation-wrapper .conversation {
-    border-color: var(--light-bg);
+    border-color: var(--light-bg) !important;
 }
 
 #navigation-conversations .conversation-wrapper .conversation:hover {
-    border-color: var(--lighter-bg);;
+    border-color: var(--lighter-bg) !important;
 }
 
 .material-icons.md-medium-dark, .material-icons.md-dark {
-    color: var(--dark-fg);
+    color: var(--dark-fg) !important;
 }
 
 .title {
-    color: var(--fg);
+    color: var(--fg) !important;
 }
 
 #navigation-conversations .conversation-wrapper .conversation .conversation-box .message-box .latest-message {
@@ -85,15 +86,73 @@ md-progress-circular.md-threema-theme path {
 }
 
 #navigation-conversations .conversation-wrapper {
-    border-color: var(--light-bg);
+    border-color: var(--light-bg) !important;
 }
 
 /* Dropdown */
 
 md-menu-content.md-threema-theme {
-    background-color: var(--bg);
+    background-color: var(--bg) !important;
 }
 
 md-menu-content.md-threema-theme md-menu-item md-icon {
-    color: var(--lighter-bg-2);
+    color: var(--lighter-bg-2) !important;
+}
+
+/* MESSENGER */
+
+#navigation-conversations .conversation-wrapper .conversation.active, #navigation-conversations .conversation-wrapper .conversation:hover {
+    background-color: var(--light-bg) !important;
+    border-color: var(--lighter-bg) !important;
+}
+
+#messenger #detail > div.ng-scope .detail-header {
+    background-color: var(--light-bg) !important;
+}
+
+.md-button.md-icon-button.header-back-button md-icon {
+    color: var(--darker-fg) !important;
+}
+
+body.md-default-theme, html.md-default-theme, html {
+    color: var(--dark-fg) !important;
+}
+
+.md-button.md-icon-button.header-back-button md-icon:hover {
+    color: var(--dark-fg) !important;
+}
+
+#conversation .detail-header .header-details > *:first-child {
+    color: var(--dark-fg) !important;
+}
+
+#messenger #detail > div.ng-scope {
+    background-color: var(--chat-bg) !important;
+}
+
+/* MESSENGER / CHAT */
+
+#conversation-chat .chat .message-in .message-body {
+    background-color: var(--light-bg) !important;
+}
+
+#conversation-chat .chat .message-out .message-body {
+    background-color: var(--light-bg) !important;
+}
+
+/* MESSENGER / CHAT / INPUT */
+
+#conversation #conversation-footer {
+    background-color: var(--lighter-bg-2) !important;
+}
+
+.emoji-trigger, .send-trigger, .file-trigger {
+    color: var(--dark-fg) !important;
+    opacity: 50% !important;
+}
+
+compose-area>div:first-child>div:nth-of-type(2) {
+    border-color: var(--bg) !important;
+    background-color: var(--light-bg) !important;
+    color: var(--dark-fg) !important;
 }
