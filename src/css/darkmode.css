@@ -183,3 +183,17 @@ compose-area > div:first-child > div:nth-of-type(2) {
     background-color: var(--light-bg) !important;
     border-color: var(--lighter-bg-2) !important;
 }
+
+/* MESSENGER / SETTINGS */
+
+md-toolbar.md-threema-theme:not(.md-menu-toolbar) {
+    background-color: var(--light-bg) !important;
+}
+
+md-dialog md-dialog-content:not([layout=row])>:first-child:not(.md-subheader), .layout-row {
+    background-color: var(--lighter-bg) !important;
+}
+
+.md-subheader.md-threema-theme {
+    background-color: var(--lighter-bg-2) !important;
+}
